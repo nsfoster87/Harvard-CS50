@@ -1,0 +1,13 @@
+include stdio
+include cs50
+
+when program starts(void)
+{
+  prompt user for input
+  store the input in a variable called height
+  if input is not between 1 and 8, prompt again
+  loop through using 'height' as a number
+   use spaces and end with #'s
+   each time increase number of #'s and decrease number of spaces
+  print
+}
